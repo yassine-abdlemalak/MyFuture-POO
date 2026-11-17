@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class AppCours {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Entrez un nombre entier : ");
+        int nombre = scanner.nextInt();
+        System.out.println("Vous avez entré : " + nombre);
+        scanner.close();
+    }
+}
