@@ -19,6 +19,7 @@ public class tableau {
         for (int i = 0; i < tableau2.length; i++) {
             tableau2[i] = scanner.nextDouble();
         }
+        scanner.close();
         System.out.println("Affichage du deuxième tableau :");
         for (int i = 0; i < tableau2.length; i++) {
             System.out.println(tableau2[i]);
